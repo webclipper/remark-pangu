@@ -1,14 +1,16 @@
 {
-  "name": "remark-pangu",
-  "version": "0.0.0-development",
+  "name": "@web-clipper/remark-pangu",
+  "version": "1.0.0",
   "description": "Remark plugin to Automatically insert whitespace between CJK (Chinese, Japanese, Korean) and half-width characters (alphabetical letters, numerical digits and symbols) by using pangu.js",
   "main": "index.js",
   "files": [
     "index.js"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
-    "test": "jest",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "test": "jest"
   },
   "repository": {
     "type": "git",

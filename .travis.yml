@@ -13,8 +13,6 @@ before_install:
   - export PATH="$HOME/.yarn/bin:$PATH"
 script:
   - npm run test -- --coverage
-after_success:
-  - npm run semantic-release
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
